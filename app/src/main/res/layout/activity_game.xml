@@ -41,7 +41,7 @@
         android:layout_height="143dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" > 
+        app:layout_constraintStart_toStartOf="parent" >
         <ImageView
             android:id="@+id/downtube"
             android:layout_width="97dp"
@@ -61,11 +61,11 @@
         android:id="@+id/imageView4"
         android:layout_width="336dp"
         android:layout_height="631dp"
-            android:layout_marginBottom="160dp"
-            android:src="@drawable/tube"
-            app:layout_constraintBottom_toTopOf="@+id/tubes"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginBottom="160dp"
+        android:src="@drawable/tube"
+        app:layout_constraintBottom_toTopOf="@+id/tubes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -139,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/suez_one_regular"
                 android:textColor="@color/orange"
-                android:textSize="36sp"
+                android:textSize="32sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -180,7 +180,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toStartOf="@+id/imageView4" />
-    
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

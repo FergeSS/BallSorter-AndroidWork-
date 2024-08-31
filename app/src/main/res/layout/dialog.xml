@@ -60,7 +60,7 @@
                 android:textSize="36sp"
                 android:text="0"/>
         </LinearLayout>
-      
+
     </LinearLayout>
 
     <LinearLayout
